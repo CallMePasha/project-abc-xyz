@@ -44,26 +44,16 @@ ABC-XYZ Анализ:
 
 ## Структура проекта
 
-project-abc-xyz/
-│
-├── analysis/
-│   └── abc_xyz_analysis.py              # Python скрипт для ABC-XYZ анализа
-│
-├── data/
-│   ├── processed/                       # Обработанные и подготовленные данные
-│   │   ├── abc_xyz_analysis_results.xlsx # Результаты ABC-XYZ анализа
-│   │   ├── cleaned_data.xlsx            # Очищенные данные после обработки
-│   │   └── data_for_abc_xyz.xlsx        # Данные подготовленные для анализа
-│   │
-│   └── raw/                             # Исходные, необработанные данные
-│       └── initial_dataset.xlsx         # Первоначальный датасет без изменений
-│
-├── reports/                             # Отчеты и визуализации
-│   ├── analysis_report.docx             # Текстовый отчет с выводами
-│   ├── dashboard.pbix                   # Интерактивный дашборд Power BI
-│   └── dashboard.pdf                    # Дашборд в формате PDF
-│
-└── README.md                            # Описание проекта
+- **analysis/** - скрипты анализа
+  - `abc_xyz_analysis.py` - основной скрипт ABC-XYZ анализа
+- **data/** - данные проекта
+  - **processed/** - обработанные данные
+  - **raw/** - исходные данные  
+- **reports/** - отчеты и дашборды
+  - `analysis_report.docx` - текстовый отчет
+  - `dashboard.pbix` - интерактивный дашборд
+  - `dashboard.pdf` - дашборд в PDF
+- `README.md` - описание проекта
 
 ## Использование кода abc_xyz_analysis.py для категоризации товаров
 
@@ -87,3 +77,4 @@ project-abc-xyz/
 
 
 4. Настройка автоматической интеграции данных
+

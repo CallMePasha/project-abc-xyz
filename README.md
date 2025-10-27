@@ -44,26 +44,26 @@ ABC-XYZ Анализ:
 
 ## Структура проекта
 
-team-project-abc-xyz/
+project-abc-xyz/
 │
-├── analysis/                           # Скрипты и код для анализа
-│   └── abc_xyz_analysis.py             # Python скрипт для ABC-XYZ анализа
+├── analysis/
+│   └── abc_xyz_analysis.py              # Python скрипт для ABC-XYZ анализа
 │
-├── data/                              # Все данные проекта
-│   ├── processed/                     # Обработанные и подготовленные данные
-│   │   ├── abc_xyz_analysis_results.xlsx # Результат выполнения кода для ABC-XYZ анализа
-│   │   ├── cleaned_data.xlsx          # Очищенные данные после обработки
-│   │   └── data_for_abc_xyz.xlsx      # Данные подготовленные для скрипта
+├── data/
+│   ├── processed/                       # Обработанные и подготовленные данные
+│   │   ├── abc_xyz_analysis_results.xlsx # Результаты ABC-XYZ анализа
+│   │   ├── cleaned_data.xlsx            # Очищенные данные после обработки
+│   │   └── data_for_abc_xyz.xlsx        # Данные подготовленные для анализа
 │   │
-│   └── raw/                           # Исходные, необработанные данные
-│       └── initial_dataset.xlsx       # Первоначальный датасет без изменений
+│   └── raw/                             # Исходные, необработанные данные
+│       └── initial_dataset.xlsx         # Первоначальный датасет без изменений
 │
-├── reports/                           # Отчеты и визуализации
-│   ├── analysis_report.docx           # Текстовый отчет о этапах работы с выводами
-│   ├── dashboard.pbix                 # Интерактивный дашборд Power BI
-│   └── dashboard.pdf                  # дашборд Power BI в формате pdf
+├── reports/                             # Отчеты и визуализации
+│   ├── analysis_report.docx             # Текстовый отчет с выводами
+│   ├── dashboard.pbix                   # Интерактивный дашборд Power BI
+│   └── dashboard.pdf                    # Дашборд в формате PDF
 │
-└── README.md                          # Файл с описанием проекта
+└── README.md                            # Описание проекта
 
 ## Использование кода abc_xyz_analysis.py для категоризации товаров
 
@@ -84,5 +84,6 @@ team-project-abc-xyz/
 2. Расширение функционала дашборда
 
 3. Добавление новых бизнес-метрик
+
 
 4. Настройка автоматической интеграции данных
